@@ -1,0 +1,49 @@
+.order_details_container {
+    width: 30%;
+    padding: 1rem;
+    background-color: #fff;
+    height: 85vh;
+    overflow: auto;
+    position: absolute;
+    top: 6rem;
+    right: 0;
+}
+
+.order_details_container>div {
+    border-bottom: 0.6px solid #ef8ccd;
+}
+
+.order_details_container a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.order_details_container a:hover {
+    color: #464545;
+}
+
+.order_details_container>div:nth-of-type(1) {
+    font-size: 0.8rem;
+    font-weight: 300;
+    letter-spacing: 0.01rem;
+    padding-bottom: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.order_details_container>div:nth-of-type(1) span {
+    float: right;
+}
+
+.order_details_container>div:nth-of-type(2) {
+    text-align: center;
+    padding-bottom: 0.7rem;
+}
+
+.order_details_container>div:nth-of-type(2) h3 {
+    font-weight: 400;
+}
+
+.order_details_container>div:nth-of-type(2) p {
+    font-weight: 300;
+    font-size: 0.9rem;
+}

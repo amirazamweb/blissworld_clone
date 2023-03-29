@@ -1,0 +1,40 @@
+.card {
+    padding: 1rem;
+    padding-bottom: 2.1rem;
+    position: relative;
+}
+
+.card img {
+    width: 90%;
+    transition: all 1s;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.card i {
+    margin: 0 0.2rem;
+    color: #8cd0e3;
+}
+
+.title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem;
+    margin: 0.5rem 0;
+}
+
+.desc {
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card button {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 1rem;
+}
