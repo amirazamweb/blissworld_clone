@@ -2,7 +2,7 @@
     width: 30%;
     padding: 1rem;
     background-color: #fff;
-    height: 85vh;
+    max-height: 85vh;
     overflow: auto;
     position: absolute;
     top: 6rem;

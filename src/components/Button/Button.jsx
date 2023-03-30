@@ -1,9 +1,10 @@
-import style from './Button.module.css'
+import style from './Button.module.css';
+import { forwardRef } from 'react';
 
-const Button = ({ value, click }) => {
+const Button = ({ value, click }, btnRef) => {
     return (
-        <button className={style.btn} onClick={click}>{value}</button>
+        <button className={style.btn} onClick={click} ref={btnRef}> {value} </button>
     )
 }
 
-export default Button;
+export default forwardRef(Button);

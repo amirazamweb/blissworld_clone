@@ -4,17 +4,17 @@
     position: relative;
 }
 
-.card img {
+.card>div>img {
     width: 90%;
     transition: all 1s;
 }
 
-.card img:hover {
+.card>div>img:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
 
-.card i {
+.card>p>i {
     margin: 0 0.2rem;
     color: #8cd0e3;
 }
@@ -32,7 +32,7 @@
     margin-bottom: 1rem;
 }
 
-.card button {
+.card>button {
     position: absolute;
     left: 50%;
     transform: translate(-50%);

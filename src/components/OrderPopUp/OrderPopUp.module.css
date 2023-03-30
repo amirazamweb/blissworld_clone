@@ -1,0 +1,64 @@
+.orderPopUp {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    width: 35%;
+    background-color: #fff;
+    padding: 1rem;
+    z-index: 3;
+}
+
+.orderPopUp>div:nth-of-type(1) {
+    display: flex;
+    justify-content: space-around;
+}
+
+.orderPopUp>div:nth-of-type(1) div:first-of-type {
+    width: 30%;
+}
+
+.orderPopUp>div:nth-of-type(1) div:first-of-type img {
+    width: 70%;
+    float: left;
+}
+
+.orderPopUp>div:nth-of-type(1) div:last-of-type {
+    width: 70%;
+}
+
+.orderPopUp>div:nth-of-type(1) div:last-of-type h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+}
+
+.orderPopUp>div:nth-of-type(2) {
+    width: 100%;
+    margin-top: 0.9rem;
+}
+
+.orderPopUp>div:nth-of-type(2) button {
+    width: 40%;
+    padding: 0.4rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.orderPopUp>div:nth-of-type(2) button:first-of-type {
+    float: left;
+    border: 1px solid #000000;
+}
+
+.orderPopUp>div:nth-of-type(2) button:last-of-type {
+    float: right;
+    background-color: #8cd0e3;
+    border: 1px solid #8cd0e3;
+}
+
+.orderPopUp i {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    cursor: pointer;
+}
