@@ -59,6 +59,11 @@
 
 .order_details>div:nth-of-type(2)>div>div:nth-of-type(2) {
     font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.order_details>div:nth-of-type(2)>div>div:nth-of-type(2):hover {
+    color: red;
 }
 
 .order_details>div:nth-of-type(2)>div>div:nth-of-type(3) {

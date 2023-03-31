@@ -4,7 +4,7 @@ import { reducer } from "./reducer";
 let initialVal = {
     showBg: false,
     showOrderList: false,
-    showOrderPopUp: false
+    showOrderPopUp: false,
 }
 
 export let myStore = createStore(reducer, initialVal);

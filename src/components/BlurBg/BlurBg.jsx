@@ -11,7 +11,7 @@ const BlurBg = ({ bgHeight }) => {
         width: '100%',
         height: bgHeight,
         backgroundColor: 'black',
-        opacity: 0.5,
+        opacity: 0.6,
         display: 'block',
         zIndex: zIndex && 2
     }
