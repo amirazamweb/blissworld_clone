@@ -4,7 +4,7 @@ import Button from '../../components/Button/Button';
 import axios from 'axios';
 import { useEffect } from 'react';
 import myData from './../../data.json';
-import snap from './../../snap.PNG'
+import snap from './../../snap.PNG';
 
 const Home = () => {
 

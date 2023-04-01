@@ -31,6 +31,7 @@
 }
 
 .order_details_container>div:nth-of-type(1) span:last-of-type {
+    cursor: pointer;
     float: right;
 }
 

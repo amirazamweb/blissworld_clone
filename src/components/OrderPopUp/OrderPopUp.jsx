@@ -1,9 +1,11 @@
 import style from './OrderPopUp.module.css'
 import { closePopUp } from '../../redux/action'
-import { useDispatch } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 
 const OrderPopUp = () => {
+
+    let { img, title, desc } = useSelector((data) => data.popupData);
 
     let navigate = useNavigate();
     let dispatch = useDispatch();
@@ -17,18 +19,24 @@ const OrderPopUp = () => {
         navigate('/');
     }
 
+    const redirectToCart = () => {
+        window.scrollTo(0, 0);
+        dispatch(closePopUp());
+        navigate('/cart');
+    }
+
     return (
         <div className={style.orderPopUp}>
             <div>
-                <div><img src="https://cdn.shopify.com/s/files/1/0702/9017/8333/products/BLISS_Bright_Idea_Vitamin_C_MOISTURIZER_50ml_JAR_FINALupdated__91912.1674082802.1280.1280.jpg" alt="popup" /></div>
+                <div><img src={img} alt="popup" /></div>
                 <div>
-                    <h4>ITEM ADDED TO BAG!</h4>
-                    <p>Bright Idea Moisturizer</p>
+                    <h4>{title}</h4>
+                    <p>{desc}</p>
                 </div>
             </div>
             <div>
                 <button onClick={shoppingHandler}>CONTINUE SHOPPING</button>
-                <button>VIEW BAG</button>
+                <button onClick={redirectToCart}>VIEW BAG</button>
             </div>
             <i class="fa-solid fa-xmark" onClick={closePopUpHandler}></i>
         </div>

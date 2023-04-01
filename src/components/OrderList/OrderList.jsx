@@ -8,6 +8,8 @@ import Button from './../Button/Button';
 
 const OrderList = () => {
 
+    let removedItemCount = useSelector((data) => data.detect_remove_click_count);
+
     const getStoreData = () => {
         let data = JSON.parse(localStorage.getItem('cardKey')) || [];
         setStoreData(data);
@@ -19,17 +21,24 @@ const OrderList = () => {
 
     useEffect(() => {
         getStoreData();
-    }, [])
+    }, [removedItemCount])
 
     const backToShopping = () => {
         dispatch(bag('off'));
         navigate('/');
     }
 
+    const redirectToCart = () => {
+        window.scrollTo(0, 0);
+        dispatch(bag('off'));
+        navigate('/cart');
+    }
+
     return (
         storeData.length ?
             <div className={style.order_details_container}>
-                <div><span onClick={backToShopping}><Link to="/">&lt;KEEP SHOPPING</Link></span> <span><Link to="#">VIEW FULL SHOPPING BAG&gt;</Link></span></div>
+                <div><span onClick={backToShopping}><Link to="/">&lt;KEEP SHOPPING</Link></span>
+                    <span onClick={redirectToCart}>VIEW FULL SHOPPING BAG&gt;</span></div>
                 <div>
                     <h3>Shopping Bag</h3>
                     <p>({storeData.length} Items)</p>

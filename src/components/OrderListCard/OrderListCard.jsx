@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import style from './OrderListCard.module.css';
+import { removeItem } from '../../redux/action';
+import { useDispatch } from 'react-redux';
 
-let setOrderCountIntoLocalStorage = (n, ind) => {
+export let setOrderCountIntoLocalStorage = (n, ind) => {
     let data = JSON.parse(localStorage.getItem('cardKey'));
     let filteredData = data.map((elm, i) => {
         if (ind == i) {
@@ -17,6 +19,7 @@ let setOrderCountIntoLocalStorage = (n, ind) => {
 const OrderListCard = ({ img, price, title, desc, itemCount, index }) => {
 
     let [count, setCount] = useState(itemCount);
+    let dispatch = useDispatch();
 
     const decHandler = () => {
         if (count > 1) {
@@ -34,6 +37,7 @@ const OrderListCard = ({ img, price, title, desc, itemCount, index }) => {
         let data = JSON.parse(localStorage.getItem('cardKey'));
         data.splice(index, 1);
         localStorage.setItem('cardKey', JSON.stringify(data));
+        dispatch(removeItem());
     }
 
     return (
@@ -49,7 +53,7 @@ const OrderListCard = ({ img, price, title, desc, itemCount, index }) => {
                         <i class="fa-solid fa-plus" onClick={incHandler}></i>
                     </div>
                     <div onClick={removeItemHandler}><small>Remove</small></div>
-                    <div>${price}</div>
+                    <div>${count * price}</div>
                 </div>
             </div>
         </div>

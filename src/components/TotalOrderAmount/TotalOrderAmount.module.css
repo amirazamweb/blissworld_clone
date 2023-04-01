@@ -1,0 +1,27 @@
+.totalOrderAmount {
+    margin-top: 0.7rem;
+    display: flex;
+    border-top: 1px solid black;
+    padding-top: 1rem;
+    padding-right: 1.5rem;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.totalOrderAmount h3 {
+    font-weight: 500;
+}
+
+.totalOrderAmount p {
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+}
+
+.totalOrderAmount button {
+    padding: 0.5rem 4rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-style: none;
+    background-color: #8cd0e3;
+    cursor: pointer;
+}

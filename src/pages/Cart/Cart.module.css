@@ -1,0 +1,54 @@
+.main {
+    width: 70%;
+    margin: auto;
+    padding: 1.5rem 0;
+    color: #180000;
+}
+
+.main>h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid black;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.heading div:nth-of-type(1) {
+    width: 65%;
+}
+
+.heading div:nth-of-type(2) {
+    width: 20%;
+}
+
+.heading div:nth-of-type(3) {
+    width: 15%;
+}
+
+/* order_details_container */
+
+.order_details_container {
+    text-align: center;
+    height: 50vh;
+    padding-top: 2rem;
+    color: #180000;
+}
+
+.order_details_container p {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.order_details_container button {
+    padding: 0.5rem 1.8rem;
+    font-size: 1rem;
+}

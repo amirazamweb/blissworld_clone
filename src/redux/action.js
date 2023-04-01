@@ -16,3 +16,16 @@ export const closePopUp = () => {
         type: 'close_popup'
     }
 }
+
+export const removeItem = () => {
+    return {
+        type: 'item_remove'
+    }
+}
+
+export const popUpOrder = (data) => {
+    return {
+        type: 'popup_active',
+        payLoad: data
+    }
+}

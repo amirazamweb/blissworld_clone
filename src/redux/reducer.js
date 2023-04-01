@@ -12,8 +12,16 @@ export let reducer = (val, action) => {
         return { ...val, showOrderPopUp: true, showBg: true }
     }
 
-    if (action.type = 'close_popup') {
+    if (action.type == 'close_popup') {
         return { ...val, showOrderPopUp: false, showBg: false }
+    }
+
+    if (action.type == 'item_remove') {
+        return { ...val, detect_remove_click_count: ++val.detect_remove_click_count };
+    }
+
+    if (action.type == 'popup_active') {
+        return { ...val, popupData: action.payLoad };
     }
     return val;
 }  

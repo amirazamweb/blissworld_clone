@@ -1,9 +1,9 @@
 import style from './Card.module.css';
 import Button from '../Button/Button';
-import { useRef } from 'react';
-import OrderPopUp from '../OrderPopUp/OrderPopUp';
+import { useRef, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addToBag } from '../../redux/action';
+import { popUpOrder } from '../../redux/action';
 
 const storeOrderInStorage = (card) => {
     let data = JSON.parse(localStorage.getItem('cardKey')) || [];
@@ -18,8 +18,8 @@ const storeOrderInStorage = (card) => {
 }
 const Card = ({ img, title, desc, price }) => {
 
-    let dispatch = useDispatch();
-    let showOrderPopUp = useSelector((data) => data.showOrderPopUp);
+    let dispatch1 = useDispatch();
+    let dispatch2 = useDispatch();
 
     let btnRef = useRef();
 
@@ -32,8 +32,8 @@ const Card = ({ img, title, desc, price }) => {
         cardDetails.price = temp.slice(temp.indexOf('$') + 1);
 
         storeOrderInStorage(cardDetails);
-
-        dispatch(addToBag());
+        dispatch1(addToBag());
+        dispatch2(popUpOrder({ img: cardDetails.img, title: cardDetails.title, desc: cardDetails.desc }));
     }
 
     return (
@@ -49,8 +49,6 @@ const Card = ({ img, title, desc, price }) => {
             <p className={style.title}>{title}</p>
             <p className={style.desc}>{desc}</p>
             <Button value={`ADD TO BAG $${price}`} ref={btnRef} click={btnClickHandler} />
-
-            {showOrderPopUp && <OrderPopUp />}
 
         </div>
     )

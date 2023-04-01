@@ -1,0 +1,66 @@
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.child1 {
+    width: 20%;
+}
+
+.child1 img {
+    width: 65%;
+}
+
+.child2 {
+    width: 45%;
+}
+
+.child2 h3 {
+    font-weight: 500;
+}
+
+.child2 p:first-of-type {
+    font-weight: 400;
+    margin-bottom: 0.3rem;
+}
+
+.child2 p:last-of-type {
+    background-color: #8cd0e3;
+    display: inline-block;
+    padding: 0.07rem 0.9rem;
+}
+
+.child3 {
+    width: 20%;
+    text-align: center;
+}
+
+.child3 div:first-of-type {
+    width: 80%;
+    margin: auto;
+    padding: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin-bottom: 0.8rem;
+}
+
+.child3 div:first-of-type span {
+    width: 30%;
+}
+
+.child3 div:last-of-type:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.child3 i:hover {
+    cursor: pointer;
+    color: rgb(31, 30, 30);
+}
+
+.child4 {
+    width: 15%;
+    text-align: center;
+}
