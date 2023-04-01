@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Home from './pages/Home/Home';
 import Cart from './pages/Cart/Cart';
+import Checkout from './pages/Checkout/Checkout';
 import PageNotFound from './pages/PageNotFound/PageNotFound';
 import { Route, Routes } from 'react-router-dom';
 import { useEffect, useRef, useState } from 'react';
@@ -29,6 +30,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/cart' element={<Cart />} />
+        <Route path='/checkout' element={<Checkout />} />
         <Route path='*' element={<PageNotFound />} />
       </Routes>
       <Footer />

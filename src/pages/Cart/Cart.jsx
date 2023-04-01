@@ -10,8 +10,9 @@ const Cart = () => {
 
     const getStoreData = () => {
         let data = JSON.parse(localStorage.getItem('cardKey')) || [];
-        console.log(data);
         setStoreData(data);
+
+        !data.length && window.scrollTo(0, 0);
     }
 
     let [storeData, setStoreData] = useState([]);
@@ -46,7 +47,7 @@ const Cart = () => {
                         index={i}
                     />
                 })}
-                <TotalOrderAmount />
+                <TotalOrderAmount orderItems={storeData} />
             </div> :
 
             <div className={style.order_details_container} >

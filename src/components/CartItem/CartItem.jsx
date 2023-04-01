@@ -5,20 +5,21 @@ import { setOrderCountIntoLocalStorage } from '../OrderListCard/OrderListCard';
 import { removeItem } from '../../redux/action';
 
 const CartItem = ({ img, title, desc, price, itemCount, index }) => {
-
     let [count, setCount] = useState(itemCount);
     let dispatch = useDispatch();
 
     const decHandler = () => {
         if (count > 1) {
             setCount(count - 1);
-            setOrderCountIntoLocalStorage(count - 1, index)
+            setOrderCountIntoLocalStorage(count - 1, index);
+            dispatch(removeItem());
         }
     }
 
     const incHandler = () => {
         setCount(count + 1);
         setOrderCountIntoLocalStorage(count + 1, index);
+        dispatch(removeItem());
     }
 
     const removeItemHandler = () => {

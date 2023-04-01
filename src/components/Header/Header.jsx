@@ -7,6 +7,8 @@ import { bag } from '../../redux/action';
 
 const Header = () => {
 
+    let temp = JSON.parse(localStorage.getItem('cardKey')) || [];
+
     const [toggler, setToggler] = useState(true);
 
     let showOrderList = useSelector((data) => data.showOrderList);
@@ -36,7 +38,7 @@ const Header = () => {
                     </i>
                     <i class="fa-solid fa-bag-shopping" onClick={bagClickHandler}>
                         <span className={style.icon_desc}>bag</span>
-                        <span className={style.order_count}>23</span>
+                        {temp.length != 0 && <span className={style.order_count}>{temp.length}</span>}
                     </i>
                 </div>
             </div>
