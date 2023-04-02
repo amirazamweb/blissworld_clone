@@ -79,7 +79,11 @@
     font-weight: 300;
     background-color: #f7eb61;
     color: black;
-    padding: 0.2rem;
+    padding: 0.1rem 0.3rem;
     font-size: 0.7rem;
     border-radius: 50%;
+}
+
+.child1 i:hover .order_count {
+    background-color: #fdb1be;
 }

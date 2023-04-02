@@ -2,7 +2,12 @@ import { useSelector } from "react-redux";
 
 const BlurBg = ({ bgHeight }) => {
 
-    let zIndex = useSelector((data) => data.showOrderPopUp);
+    let { showOrderPopUp, checkoutPopup } = useSelector((data) => {
+        return {
+            showOrderPopUp: data.showOrderPopUp,
+            checkoutPopup: data.checkoutPopup
+        }
+    })
 
     let compStyle = {
         position: 'absolute',
@@ -13,7 +18,7 @@ const BlurBg = ({ bgHeight }) => {
         backgroundColor: 'black',
         opacity: 0.6,
         display: 'block',
-        zIndex: zIndex && 2
+        zIndex: (showOrderPopUp || checkoutPopup) && 2
     }
 
     return (

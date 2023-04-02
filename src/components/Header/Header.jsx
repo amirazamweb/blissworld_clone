@@ -36,7 +36,7 @@ const Header = () => {
                     <i class="fa-regular fa-hand">
                         <span className={style.icon_desc}>account</span>
                     </i>
-                    <i class="fa-solid fa-bag-shopping" onClick={bagClickHandler}>
+                    <i className="fa-solid fa-bag-shopping" onClick={bagClickHandler}>
                         <span className={style.icon_desc}>bag</span>
                         {temp.length != 0 && <span className={style.order_count}>{temp.length}</span>}
                     </i>

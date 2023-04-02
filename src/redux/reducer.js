@@ -23,5 +23,13 @@ export let reducer = (val, action) => {
     if (action.type == 'popup_active') {
         return { ...val, popupData: action.payLoad };
     }
+
+    if (action.type == 'order_placed') {
+        return ({ ...val, showBg: true, checkoutPopup: true });
+    }
+
+    if (action.type == 'close_checkout_poup') {
+        return ({ ...val, showBg: false, checkoutPopup: false })
+    }
     return val;
 }  

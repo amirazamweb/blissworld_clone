@@ -29,3 +29,15 @@ export const popUpOrder = (data) => {
         payLoad: data
     }
 }
+
+export const orderPlaced = (data) => {
+    return {
+        type: 'order_placed'
+    }
+}
+
+export const closeCheckoutPopup = (data) => {
+    return {
+        type: 'close_checkout_poup'
+    }
+}

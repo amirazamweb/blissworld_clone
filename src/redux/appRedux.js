@@ -6,6 +6,7 @@ let initialVal = {
     showOrderList: false,
     showOrderPopUp: false,
     detect_remove_click_count: 0,
+    checkoutPopup: false
 }
 
 export let myStore = createStore(reducer, initialVal);
