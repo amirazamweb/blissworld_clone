@@ -1,0 +1,30 @@
+{
+    "main_title": "SALE",
+    "info": "",
+    "data": [
+        {
+            "title": "Pore Patrol Warming Oil Free Face Scrub",
+            "desc": "Daily Warming Face Scrub With Black Volcanic Sand",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/pore_patrol_warming_scrub_sku_1003_30004_01__45429.1674080893.1280.1280.jpg",
+            "price": 12
+        },
+        {
+            "title": "Rose Gold Rescue Rose Water Moisturizer",
+            "desc": "Gentle Moisture Cream For Sensitive Skin",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/rose_gold_moisturizer_sku_1003_30006_01__03820.1674080644.1280.1280.jpg",
+            "price": 17
+        },
+        {
+            "title": "What a Melon Toner Alcohol Free Witch Hazel Toner",
+            "desc": "Replenishing Watermelon Toner With Witch Hazel, Willow Bark & Hyaluronic Acid",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/what-a-melon-toner_sku_1003_30080_01__72482.1674080334.1280.1280.jpg",
+            "price": 12
+        },
+        {
+            "title": "Clear Genius Acne Spot Treatment",
+            "desc": "Maximum Strength Salicylic Acid Treatment",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/Clear_Genius_Spot_Treatment_15ml_FRONT__32428.1674082882.1280.1280.jpg",
+            "price": 11
+        }
+    ]
+}

@@ -22,8 +22,9 @@
 }
 
 .child1 div:nth-of-type(2) h1 {
-    color: #fff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    cursor: pointer;
 }
 
 .child1 div:nth-of-type(3) {

@@ -1,0 +1,22 @@
+.main {
+    text-align: center;
+    margin-top: 1.5rem;
+    padding: 1rem 0;
+}
+
+.main h2 {
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.main p:first-of-type {
+    font-weight: 300;
+}
+
+.card_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 3rem;
+    gap: 1.5rem;
+    text-align: center;
+}

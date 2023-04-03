@@ -2,6 +2,12 @@ import './App.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Home from './pages/Home/Home';
+import BestSellers from './pages/BestSellers/BestSellers';
+import Skincare from './pages/Skincare/Skincare';
+import BodyAndHaircare from './pages/BodyAndHaircare/BodyAndHaircare';
+import SetsAndKits from './pages/SetsAndKits/SetsAndKits';
+import Sale from './pages/Sale/Sale';
+import FooterPages from './pages/FooterPages/FooterPages';
 import Cart from './pages/Cart/Cart';
 import Checkout from './pages/Checkout/Checkout';
 import PageNotFound from './pages/PageNotFound/PageNotFound';
@@ -29,6 +35,12 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/best-sellers' element={<BestSellers />} />
+        <Route path='/skincare' element={<Skincare />} />
+        <Route path='/body-and-haircare' element={<BodyAndHaircare />} />
+        <Route path='/sets-and-kits' element={<SetsAndKits />} />
+        <Route path='/sale' element={<Sale />} />
+        <Route path='/pages/' element={<FooterPages />} />
         <Route path='/cart' element={<Cart />} />
         <Route path='/checkout' element={<Checkout />} />
         <Route path='*' element={<PageNotFound />} />

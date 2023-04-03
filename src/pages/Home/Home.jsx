@@ -1,9 +1,7 @@
 import style from './Home.module.css'
 import Card from '../../components/Card/Card';
 import Button from '../../components/Button/Button';
-import axios from 'axios';
-import { useEffect } from 'react';
-import myData from './../../data.json';
+import myData from './../../data/data.json';
 import snap from './../../snap.PNG';
 
 const Home = () => {

@@ -1,0 +1,150 @@
+{
+    "main_title": "SKIN AND BODY BEST SELLERS",
+    "info": "",
+    "data": [
+        {
+            "title": "Lemon & Sage Body Butter",
+            "desc": "Lemon Sage Maximum Moisture Cream",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/lemonsage_body_butter_pro_sku_1007_70000_01__07688.1674081148.1280.1280.jpg",
+            "price": 60
+        },
+        {
+            "title": "Drench & Quench Moisturizer",
+            "desc": "Cream-to-Water Hydrator for All-Day Moisture",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/DrenchQuench_Updated_Front__12756.1614899657.1280.1280__07783.1674082552.1280.1280.jpg",
+            "price": 24
+        },
+        {
+            "title": "Bright Idea Serum",
+            "desc": "Vitamin C + Tri-Peptide Collagen Protecting & Brightening Serum",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/BLISS_Bright_Idea_Vitamin_C_SERUM_30ml_FINALupdated__36719.1674082916.1280.1280.jpg",
+            "price": 28
+        },
+        {
+            "title": "Lemon & Sage Soapy Suds Body Wash",
+            "desc": "Lemon Sage Body Wash with Aloe",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/lemonsage_soapy_suds_sku_1003_10020_01__20984.1674081183.1280.1280.jpg",
+            "price": 18
+        },
+        {
+            "title": "Fab Foaming Exfoliating Cleanser",
+            "desc": "2-in-1 Cleanser & Exfoliator With Bamboo Buffers",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/fab_foaming_cleanser_sku_1003_30040_01__17937.1674082401.1280.1280.jpg",
+            "price": 15
+        },
+        {
+            "title": "Block Star Daily Mineral SPF 30",
+            "desc": "Protects from harmful UVA & UVB rays",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/40ML_1000x1000_with_shadows_seals__83429.1674081415.1280.1280.jpg",
+            "price": 25
+        },
+        {
+            "title": "Youth Got This Serum",
+            "desc": "Prevent-4™ Pure Retinol Advanced Skin Smoothing Serum",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/Bliss_Soldiers_Youth_Got_This_No_Badge.jpg?v=1680538346",
+            "price": 28
+        },
+        {
+            "title": "Youth Got This  Moisturizer",
+            "desc": "Prevent-4™ Pure Retinol Deep Hydration Moisturizer",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/Youth_Got_This_Moisturizer_Front__84970.1674080308.1280.1280.jpg",
+            "price": 28
+        },
+        {
+            "title": "Lemon & Sage Supershine Shampoo",
+            "desc": "Nutrient-rich Shampoo with Vitamins E and B5",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/lemonsage_shampoo_pro_sku_1007_70100_01__93646.1674080816.1280.1280.jpg",
+            "price": 45
+        },
+        {
+            "title": "Naked Body Butter Unscented Moisturizer",
+            "desc": "Maximum Fragrance Free Moisture Cream",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/BLISS_Naked_Body_Butter_200mlxNEWTUBE__70211.1674080973.1280.1280.jpg",
+            "price": 36
+        },
+        {
+            "title": "Blackhead Breakdown",
+            "desc": "Blackhead Purifying Stick",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/Blackhead_Breadown_Front__80282.1674081051.1280.1280.jpg",
+            "price": 18
+        },
+        {
+            "title": "Rest Assured Eye Cream",
+            "desc": "Dark Circle Reducing & Depuffing Eye Cream for Refreshed Eyes",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/Rest_Assured_Eye_Cream_Front__54512.1674080733.1280.1280.jpg",
+            "price": 25
+        },
+        {
+            "title": "Bright Idea Moisturizer",
+            "desc": "Vitamin C + Tri-Peptide Collagen Protecting & Brightening Moisturizer",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/BLISS_Bright_Idea_Vitamin_C_MOISTURIZER_50ml_JAR_FINALupdated__91912.1674082802.1280.1280.jpg",
+            "price": 26
+        },
+        {
+            "title": "Poetic Waxing At Home Wax Kit",
+            "desc": "Straight-from-the-spa Hair Removal Kit",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/poetic_waxing_sku_1003_10040_01__21989.1674080905.1280.1280.jpg",
+            "price": 25
+        },
+        {
+            "title": "That's Incredi-peel Glycolic Acid Pads",
+            "desc": "Spa-strength Glycolic Resurfacing Pads to Smooth & Brighten",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/thats_incredi_peel_sku_1003_30031_01__44289resized__35680_7941856f-a381-4ec0-a20c-c03048f7aa59.jpg",
+            "price": 25
+        },
+        {
+            "title": "Mint Scrub Soap",
+            "desc": "Super-Cooling Mint Bath Bar",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/BLISS_Minty_Scrub_Soap_BAR_LOGO_FINAL__36040.1674081029.1280.1280.jpg",
+            "price": 16
+        },
+        {
+            "title": "Glow & Hydrate Day Hyaluronic Serum",
+            "desc": "Niacinamide + Hyaluronic Acid Day Serum",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/glowhydrate_serum_sku_1003_30110_01__56680.1674081354.1280.1280.jpg",
+            "price": 22
+        },
+        {
+            "title": "Grapefruit & Aloe Body Butter",
+            "desc": "Grapefruit Maximum Moisture Cream",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/grapefruitaloe_body_butter_sku_1003_10002_01__05959.1674081301.1280.1280.jpg",
+            "price": 12
+        },
+        {
+            "title": "Rose Gold Rescue Rose Water Moisturizer",
+            "desc": "Gentle Moisture Cream For Sensitive Skin",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/rose_gold_moisturizer_sku_1003_30006_01__03820.1674080644.1280.1280.jpg",
+            "price": 17
+        },
+        {
+            "title": "Drench & Quench Serum",
+            "desc": "All-Day Moisture Serum",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/DQ_All_Day_Serum_Front__51201.1674082541.1280.1280.jpg",
+            "price": 27
+        },
+        {
+            "title": "Blood Orange & White Pepper Body Butter",
+            "desc": "Maximum Orange Moisture Cream",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/bloodorangewhitepepper_body_butter_sku_1003_10003_01__81918.1674081451.1280.1280.jpg",
+            "price": 12
+        },
+        {
+            "title": "Renew & Smooth Night Glycolic Acid Serum",
+            "desc": "Glycolic + Polyhydroxy Acid Night Serum",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/renewsmooth_serum_sku_1003_30111_01__23200.1674080749.1280.1280.jpg",
+            "price": 25
+        },
+        {
+            "title": "BlissPro Liquid Exfoliant",
+            "desc": "11.8% AHA | BHA | PHA Liquid Exfoliant",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/Pro_Liquid_Exfoliant_1000x1000__53361.1674080871.1280.1280.jpg",
+            "price": 24
+        },
+        {
+            "title": "Clear Genius Cleanser",
+            "desc": "Clarifying Gel Cleanser",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/Clarifying_gel_cleanser_front__96525.1674082691.1280.1280.jpg",
+            "price": 15
+        }
+    ]
+}

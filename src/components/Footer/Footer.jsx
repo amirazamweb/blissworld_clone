@@ -32,9 +32,10 @@ const Footer = () => {
                     <br />
                     <h3>THE FUN STUFF</h3>
                     <div className={style.social_icon}>
-                        <Link to="#"><i class="fa-brands fa-instagram"></i></Link>
-                        <Link to="#"><i class="fa-brands fa-youtube"></i></Link>
-                        <Link to="#"><i class="fa-brands fa-tiktok"></i></Link>
+                        <Link to="https://www.instagram.com/bliss/" target="_blank"><i class="fa-brands fa-instagram"></i></Link>
+                        <Link to="https://www.youtube.com/user/blissbeautyblog" target="_blank"><i class="fa-brands fa-youtube"></i></Link>
+                        <Link to="https://www.facebook.com/blissworld/" target="_blank"><i class="fa-brands fa-facebook-f"></i></Link>
+                        <Link to="https://in.pinterest.com/blissworld/" target="_blank"><i class="fa-brands fa-pinterest-p"></i></Link>
                     </div>
                     <br />
                     <p>© 2023 BlissWorld Inc.</p>

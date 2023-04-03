@@ -16,7 +16,6 @@ const OrderPopUp = () => {
 
     const shoppingHandler = () => {
         dispatch(closePopUp());
-        navigate('/');
     }
 
     const redirectToCart = () => {

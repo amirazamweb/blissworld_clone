@@ -1,0 +1,150 @@
+{
+    "main_title": "BODY & HAIR CARE",
+    "info": "",
+    "data": [
+        {
+            "title": "Lemon & Sage Body Butter",
+            "desc": "Lemon Sage Maximum Moisture Cream",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/lemonsage_body_butter_sku_1003_10000_01__74065.1674081148.1280.1280.jpg",
+            "price": 36
+        },
+        {
+            "title": "Lemon & Sage Soapy Suds Body Wash",
+            "desc": "Lemon Sage Body Wash with Aloe",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/lemonsage_soapy_suds_sku_1003_10020_01__20984.1674081183.1280.1280.jpg",
+            "price": 15
+        },
+        {
+            "title": "Poetic Waxing At Home Wax Kit",
+            "desc": "Straight-from-the-spa Hair Removal Kit",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/poetic_waxing_sku_1003_10040_01__21989.1674080905.1280.1280.jpg",
+            "price": 25
+        },
+        {
+            "title": "Naked Body Butter Unscented Moisturizer",
+            "desc": "Maximum Fragrance Free Moisture Cream",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/BLISS_Naked_Body_Butter_200mlxNEWTUBE__70211.1674080973.1280.1280.jpg",
+            "price": 36
+        },
+        {
+            "title": "Ingrown Hair & Razor Bump Eliminating Solution",
+            "desc": "For The Body With Salicylic & Glycolic Acids",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/Ingrown_Hair_Eliminating_Solution_Front__71857.1674081250.1280.1280.jpg",
+            "price": 20
+        },
+        {
+            "title": "Almond Milk & Vanilla Cloud 9 Body Lotion",
+            "desc": "Weightless Moisture Body Lotion",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/Cloud9_Body_Lotion_Almond_Milk_Front__31766.1674080784.1280.1280.jpg",
+            "price": 15
+        },
+        {
+            "title": "Pink Blossom Water Lily Cloud 9 Body Wash",
+            "desc": "Nourishing Body Wash",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/Pink_BlossomWaterlily_BWash__79351.1674080923.1280.1280.jpg",
+            "price": 15
+        },
+        {
+            "title": "Tropical Coconut & Pineapple Cloud 9 Body Scrub & Wash",
+            "desc": "Daily Body Wash & Scrub with Vita Shea Blend",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/Tropical_CoconutPineapple_BWash__80068.1674080375.1280.1280.jpg",
+            "price": 15
+        },
+        {
+            "title": "Texture Takedown Skin Smoothing Body Butter",
+            "desc": "For Rough, Bumpy Skin",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/KP_Skin_Smoothing_Body_Butter__75537.1674081229.1280.1280.jpg",
+            "price": 15
+        },
+        {
+            "title": "Aloe Leaf & Peppermint Foot Cream",
+            "desc": "Super Softening & AHA Exfoliating Cooling Foot Cream",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/BLISS_Aloe_Leaf_Peppermint_FOOT_CREAM_120mlxNEWTUBE__11001.1674081429.1280.1280.jpg",
+            "price": 10
+        },
+        {
+            "title": "Lemon & Sage Satin-Skin Body Scrub",
+            "desc": "With Shea Butter & Coconut Oil",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/lemonsage_satinskin_body_polish_sku_1003_10014_01__12224.1674081164.1280.1280.jpg",
+            "price": 15
+        },
+        {
+            "title": "Lemon & Sage Supershine Shampoo",
+            "desc": "Nutrient-rich Shampoo with Vitamins E and B5",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/lemonsage_shampoo_pro_sku_1007_70100_01__93646.1674080816.1280.1280.jpg",
+            "price": 45
+        },
+        {
+            "title": "Lemon & Sage Conditioning Rinse",
+            "desc": "Hydrating Conditioner for Dry Hair",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/lemon_sage_conditioner_pro_1_sku_1007_70101_01__64566.1674080827.1280.1280.jpg",
+            "price": 45
+        },
+        {
+            "title": "Grapefruit & Aloe Body Butter",
+            "desc": "Grapefruit Maximum Moisture Cream",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/grapefruitaloe_body_butter_sku_1003_10002_01__05959.1674081301.1280.1280.jpg",
+            "price": 12
+        },
+        {
+            "title": "Blood Orange & White Pepper Body Butter",
+            "desc": "Maximum Orange Moisture Cream",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/bloodorangewhitepepper_body_butter_sku_1003_10003_01__81918.1674081451.1280.1280.jpg",
+            "price": 12
+        },
+        {
+            "title": "Mint Scrub Soap",
+            "desc": "Super-Cooling Mint Bath Bar",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/BLISS_Minty_Scrub_Soap_BAR_LOGO_FINAL__36040.1674081029.1280.1280.jpg",
+            "price": 16
+        },
+        {
+            "title": "Clear Genius Body Acne Spray",
+            "desc": "Maximum Strength Salicylic Acid Spray",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/Clear_Genius_BODY_SPRAY_103ml_TUBE_FRONT__22808.1674082889.1280.1280.jpg",
+            "price": 18
+        },
+        {
+            "title": "Lemon & Sage Cloud 9 Body Lotion",
+            "desc": "Weightless Moisture Body Lotion",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/Cloud9_Body_Lotion_Lemon_Sage_Front__45264.1674081214.1280.1280.jpg",
+            "price": 15
+        },
+        {
+            "title": "Pink Blossom & Water Lily Cloud 9 Body Lotion",
+            "desc": "Weightless Moisture Body Lotion",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/Cloud9_Body_Lotion_Pink_Blossom_Front__12561.1674080934.1280.1280.jpg",
+            "price": 15
+        },
+        {
+            "title": "Wax & Relax Hair Removal Kit",
+            "desc": "Spa Hair Removal Duo",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/WaxRelax__13808.1664405799.1280.1280.jpg",
+            "price": 36
+        },
+        {
+            "title": "Love Your Locks Hair Care Kit",
+            "desc": "Vitamin E and B5 Dynamic Hair Duo ",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/Bundle_3__LS_Shampoo_LS_Conditioner__62252.1643739832.1280.1280.jpg",
+            "price": 72
+        },
+        {
+            "title": "Butter Together Body Butter Set",
+            "desc": "Cult-Fave Body Butter Quad",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/Bundle_6__LS_Body_Butter_Grapefruit_Body_Butter_Blood_Orange_Body_Butter_Naked_Body_Butter_all_full_size_200_ML_1__10748.1659723177.1280.1280.jpg",
+            "price": 38
+        },
+        {
+            "title": "Unscented Cloud 9 Body Lotion",
+            "desc": "Weightless Moisture Body Lotion",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/BLISS_Cloud_9_Body_Lotion_UNSCENTED_16oz_FRONT_Resized__26783.1674080360.1280.1280.jpg",
+            "price": 15
+        },
+        {
+            "title": "Fabgirl Sixpack Skin Tightening Gel",
+            "desc": "Targeted Skin Tightening Core-firming Gel",
+            "img": "https://cdn.shopify.com/s/files/1/0702/9017/8333/products/fabgirl_sixpack_sku_1003_10031_01__28500.1674082312.1280.1280.jpg",
+            "price": 24
+        }
+    ]
+}
