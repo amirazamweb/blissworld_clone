@@ -25,9 +25,9 @@ const Contact = () => {
         schema.validate(details)
             .then((e) => {
                 setShow(false);
-                alert('your message has been recorded');
                 window.scrollTo(0, 0);
                 navigate('/');
+                alert('your message has been recorded');
 
             })
             .catch((e) => {
