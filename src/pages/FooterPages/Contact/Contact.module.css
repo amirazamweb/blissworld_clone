@@ -1,0 +1,102 @@
+.main {
+    width: 50%;
+    margin: auto;
+    margin: 2rem auto;
+    color: #2d3436;
+}
+
+.main h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.main p {
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.main>form {
+    margin-top: 1.5rem;
+    width: 100%;
+}
+
+.main>form input,
+textarea {
+    padding: 0.6rem 1rem;
+    border: 1px solid #616161;
+}
+
+.main>form input:focus {
+    outline: none;
+    border: 1px solid #8cd0e3;
+}
+
+.main>form select {
+    border: 1px solid #616161;
+    border-radius: 0;
+}
+
+.main>form select:focus {
+    outline: none;
+    border: 1px solid #8cd0e3;
+}
+
+.main>form>div:nth-of-type(1) {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.main>form>div:nth-of-type(1) input {
+    width: 48%;
+}
+
+.main>form>div:nth-of-type(2) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.main>form>div:nth-of-type(2) * {
+    width: 48%;
+}
+
+.main>form>div:nth-of-type(3) textarea {
+    width: 100%;
+    resize: none;
+    margin-bottom: 0.5rem;
+}
+
+.main>form>div:nth-of-type(3) textarea:focus {
+    outline: none;
+    border: 1px solid #8cd0e3;
+}
+
+.main>form>div:nth-of-type(4) input {
+    width: 35%;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.main>form>div:nth-of-type(5) input {
+    width: 100%;
+    border-style: none;
+    padding: 0.5rem;
+    background-color: #000000;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.main>form>div:nth-of-type(5) input:hover {
+    background-color: #1f1f1f;
+}
+
+
+.image {
+    margin-top: 2rem;
+}

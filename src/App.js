@@ -8,6 +8,16 @@ import BodyAndHaircare from './pages/BodyAndHaircare/BodyAndHaircare';
 import SetsAndKits from './pages/SetsAndKits/SetsAndKits';
 import Sale from './pages/Sale/Sale';
 import FooterPages from './pages/FooterPages/FooterPages';
+import Accessibility from './pages/FooterPages/Accessibility/Accessibility';
+import FindABlissNearYou from './pages/FooterPages/FindABlissNearYou/FindABlissNearYou';
+import WhoWeAre from './pages/FooterPages/WhoWeAre/WhoWeAre';
+import AllCollections from './pages/FooterPages/AllCollections/AllCollections';
+import Contact from './pages/FooterPages/Contact/Contact';
+import Shipping from './pages/FooterPages/Shipping/Shipping';
+import Returns from './pages/FooterPages/Returns/Returns';
+import OrderingPayment from './pages/FooterPages/OrderingPayment/OrderingPayment';
+import PrivacyPolicy from './pages/FooterPages/PrivacyPolicy/PrivacyPolicy';
+import TermsConditions from './pages/FooterPages/TermsConditions/TermsConditions';
 import Cart from './pages/Cart/Cart';
 import Checkout from './pages/Checkout/Checkout';
 import PageNotFound from './pages/PageNotFound/PageNotFound';
@@ -40,7 +50,18 @@ function App() {
         <Route path='/body-and-haircare' element={<BodyAndHaircare />} />
         <Route path='/sets-and-kits' element={<SetsAndKits />} />
         <Route path='/sale' element={<Sale />} />
-        <Route path='/pages/' element={<FooterPages />} />
+        <Route path='/pages/' element={<FooterPages />}>
+          <Route path='accessibility' element={<Accessibility />} />
+          <Route path='find-a-bliss-near-you' element={<FindABlissNearYou />} />
+          <Route path='who-we-are' element={<WhoWeAre />} />
+          <Route path='collections' element={<AllCollections />} />
+          <Route path='contact' element={<Contact />} />
+          <Route path='shipping' element={<Shipping />} />
+          <Route path='returns' element={<Returns />} />
+          <Route path='ordering-payment' element={<OrderingPayment />} />
+          <Route path='privacy-policy' element={<PrivacyPolicy />} />
+          <Route path='terms-conditions' element={<TermsConditions />} />
+        </Route>
         <Route path='/cart' element={<Cart />} />
         <Route path='/checkout' element={<Checkout />} />
         <Route path='*' element={<PageNotFound />} />

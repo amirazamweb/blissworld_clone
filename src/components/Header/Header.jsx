@@ -27,8 +27,8 @@ const Header = () => {
     }
 
     const scrollTop = () => {
-
         window.scrollTo(0, 0);
+        dispatch(bag('off'));
     }
 
     return (

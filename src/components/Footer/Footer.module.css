@@ -3,7 +3,7 @@
 }
 
 .child1 {
-    background-color: #73d2e6;
+    background-color: #8cd0e3;
     padding: 1.5rem;
     padding-bottom: 0.5rem;
     width: 70%;
@@ -16,22 +16,22 @@
 }
 
 .child1 h3 {
-    color: #f5ea77;
+    color: #000000;
     font-weight: 500;
     margin-bottom: 0.8rem;
 }
 
 .child1 p {
     margin-bottom: 0.3rem;
-    color: #ffffff;
+    color: #000000;
     font-size: 0.9rem;
-    font-weight: 350;
+    font-weight: 300;
 }
 
 .child1 a {
     text-decoration: none;
-    color: #ffffff;
-    font-size: 1rem;
+    color: #000000;
+    font-size: 0.9rem;
 }
 
 .child1 a:hover {
